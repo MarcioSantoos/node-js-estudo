@@ -1,0 +1,32 @@
+POST http://localhost:4002/products 
+content-type: application/json
+
+{
+    "name": "Lapis colorido",
+    "price": 1
+}
+
+###
+
+GET http://localhost:4002/products/
+
+###
+
+GET http://localhost:4002/products/85c6c98d-7f3a-4e2f-b647-0597c22f12a8
+
+
+###
+
+PUT  http://localhost:4002/products/f158b46e-4e26-46a8-86e3-93afb25dbdcf
+content-type: application/json
+
+{
+    "name": "Borracha Azul ",
+    "price": 3
+}
+
+###
+
+DELETE  http://localhost:4002/products/3e99472d-1704-4d73-ac22-b65cdf22fd6e 
+content-type: application/json
+
